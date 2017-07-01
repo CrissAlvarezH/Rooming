@@ -23,6 +23,7 @@
             app:srcCompat="@drawable/docente" />
 
         <Button
+            android:onClick="soyDocenteClick"
             android:id="@+id/btn_soy_docente"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

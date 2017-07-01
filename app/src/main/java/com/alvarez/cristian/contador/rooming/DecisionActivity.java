@@ -21,7 +21,8 @@ public class DecisionActivity extends AppCompatActivity {
 
     // Metodo para cuando se haga click en el boton 'btnSoyDocente'
     public void soyDocenteClick(View v){
-
+        i = new Intent(this, LoginDocentesActivity.class);
+        startActivity(i);
     }
 
     // Metodo para cuando se haga click en el boton 'btnSoyEstudiante'
