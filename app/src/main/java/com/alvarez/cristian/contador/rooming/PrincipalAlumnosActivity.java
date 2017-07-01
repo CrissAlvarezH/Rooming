@@ -4,13 +4,13 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.MenuItem;
+
+import com.alvarez.cristian.contador.rooming.fragments_tabs.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,10 +63,10 @@ public class PrincipalAlumnosActivity extends AppCompatActivity {
      */
     private void prepararViewPager(ViewPager viewPager){
         PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager());
-        adapter.agregarFragment(new Fragment());// fragment de prueba
-        adapter.agregarFragment(new Fragment());// fragment de prueba
-        adapter.agregarFragment(new Fragment());// fragment de prueba
-        adapter.agregarFragment(new Fragment());// fragment de prueba
+        adapter.agregarFragment(new ScanFragment());
+        adapter.agregarFragment(new BloquesFragment());
+        adapter.agregarFragment(new DocentesFragment());
+        adapter.agregarFragment(new FavoritosFragment());
         viewPager.setAdapter(adapter);// establecemos el adaptador al viewPager
     }
 
