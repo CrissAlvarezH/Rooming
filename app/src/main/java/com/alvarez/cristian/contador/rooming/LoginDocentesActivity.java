@@ -18,7 +18,7 @@ public class LoginDocentesActivity extends AppCompatActivity {
     private void setToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {
-            toolbar.setTitle("Login Docentes");// agregamos el nombre de la app en la toolbar
+            toolbar.setTitle("Login Docentes");
             setSupportActionBar(toolbar);// ponemos la toolbar en la appbar
 
             if(getSupportActionBar() != null) {

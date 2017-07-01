@@ -23,8 +23,10 @@
         <activity
             android:name=".RegistroAlumnosActivity"
             android:parentActivityName=".LoginAlumnosActivity" />
-        <activity android:name=".LoginDocentesActivity"
-            android:parentActivityName=".DecisionActivity"/>
+        <activity
+            android:name=".LoginDocentesActivity"
+            android:parentActivityName=".DecisionActivity" />
+        <activity android:name=".PrincipalAlumnosActivity"></activity>
     </application>
 
 </manifest>
