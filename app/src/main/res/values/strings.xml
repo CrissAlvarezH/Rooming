@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">"Rooming "</string>
+    <string name="soy_docente">SOY DOCENTE</string>
+    <string name="soy_estudiante">SOY ESTUDIANTE</string>
+</resources>
