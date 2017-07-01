@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import com.alvarez.cristian.contador.rooming.R;
 
-public class DocentesFragment extends Fragment {
+public class DocentesFragment extends Fragment implements BuscadorListener{
     public DocentesFragment() {}
 
     @Override
@@ -17,5 +17,10 @@ public class DocentesFragment extends Fragment {
         View vista = inflater.inflate(R.layout.fragment_docentes, container, false);
 
         return vista;
+    }
+
+    @Override
+    public void buscar(String consulta) {
+
     }
 }

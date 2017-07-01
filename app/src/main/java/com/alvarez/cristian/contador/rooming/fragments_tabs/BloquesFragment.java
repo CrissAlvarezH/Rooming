@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import com.alvarez.cristian.contador.rooming.R;
 
-public class BloquesFragment extends Fragment {
+public class BloquesFragment extends Fragment implements BuscadorListener{
     public BloquesFragment() {}
 
     @Override
@@ -19,4 +19,8 @@ public class BloquesFragment extends Fragment {
         return vista;
     }
 
+    @Override
+    public void buscar(String consulta) {
+
+    }
 }

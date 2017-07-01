@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import com.alvarez.cristian.contador.rooming.R;
 
-public class FavoritosFragment extends Fragment {
+public class FavoritosFragment extends Fragment implements BuscadorListener{
 
     public FavoritosFragment() {}
 
@@ -18,5 +18,10 @@ public class FavoritosFragment extends Fragment {
         View vista = inflater.inflate(R.layout.fragment_favoritos, container, false);
 
         return vista;
+    }
+
+    @Override
+    public void buscar(String consulta) {
+
     }
 }
