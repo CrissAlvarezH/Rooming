@@ -29,11 +29,14 @@
             android:layout_weight="8">
 
             <EditText
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
                 android:inputType="numberSigned"
                 android:id="@+id/edtIdentificacion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
                 android:drawableRight="@drawable/ic_id_persona"
                 android:hint="Identificacion" />
 
@@ -66,11 +69,14 @@
             android:layout_weight="8">
 
             <EditText
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
                 android:inputType="textPersonName"
                 android:id="@+id/edtNombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
                 android:drawableRight="@drawable/ic_persona"
                 android:hint="Nombre" />
 
@@ -103,11 +109,14 @@
             android:layout_weight="8">
 
             <EditText
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
                 android:inputType="textPersonName"
                 android:id="@+id/edtApellidos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
                 android:drawableRight="@drawable/ic_persona"
                 android:hint="Apellidos" />
 
@@ -140,11 +149,14 @@
             android:layout_weight="8">
 
             <EditText
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
                 android:inputType="textPassword"
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
                 android:drawableRight="@drawable/ic_candado"
                 android:hint="Contraseña" />
 

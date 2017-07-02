@@ -39,10 +39,13 @@
             app:cardCornerRadius="5dp">
 
             <EditText
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="7dp"
                 android:inputType="numberSigned"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
                 android:drawableRight="@drawable/ic_persona"
                 android:hint="Codigo" />
 

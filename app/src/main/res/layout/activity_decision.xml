@@ -20,7 +20,8 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/docente" />
+            android:src="@drawable/docente"
+            android:contentDescription="@string/descripcion_img_fondo" />
 
         <Button
             android:onClick="soyDocenteClick"
@@ -49,7 +50,8 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/estudiantes" />
+            android:src="@drawable/estudiantes"
+            android:contentDescription="@string/descripcion_img_fondo"/>
 
         <Button
             android:onClick="soyEstudianteClick"

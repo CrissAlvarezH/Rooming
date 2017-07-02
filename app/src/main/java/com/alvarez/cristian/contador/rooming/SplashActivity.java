@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
 
         }else{// no se ha logueado
             //i = new Intent(this, DecisionActivity.class);
-            i = new Intent(this, PrincipalAlumnosActivity.class);// por pruebas vamos a mandar a la principal
+            i = new Intent(this, DecisionActivity.class);// por pruebas vamos a mandar a la principal
         }
 
         if(i != null) {
