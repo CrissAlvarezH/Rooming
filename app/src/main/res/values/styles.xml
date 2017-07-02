@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Estilo utilizando para la actividad del scaner, puesto que esta necesita la
+    action bar, ya que se cambia la vista que contiene la actividad por la del scannerView
+    y la toolbar en ese momento deja de verse, pero la actionbar se pone independientemente del
+    layout o vista que contenga la actividad -->
+    <style name="ConActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBarOverlay">true</item><!-- para que el action bar aparezca por encima -->
+    </style>
+
 </resources>

@@ -9,4 +9,5 @@
     <color name="blanco">#fff</color>
     <color name="negro">#050505</color>
     <color name="gris_fondo">#efeeee</color>
+    <color name="gris_oscuro">#686565</color>
 </resources>
