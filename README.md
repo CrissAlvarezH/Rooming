@@ -33,7 +33,7 @@ buscar y agregar a favoritos los cursos que esta dando o que considere que debe 
 
 ![Imagen principal](https://scontent.feoh3-1.fna.fbcdn.net/v/t1.0-9/19642559_1572490472763660_8685239619999727851_n.jpg?oh=90f7a9d3c60adb3678779a53bc056360&oe=59DA505B)
 
-- Al dar click en 'ESCANEAR' se lanza la siguiente pantalla la cual consiste en abrir la camara.
+- Al dar click en 'ESCANEAR' se lanza la siguiente pantalla la cual consiste en abrir la camara con un escaner.
 
 ![Imagen decisión](https://scontent.feoh3-1.fna.fbcdn.net/v/t1.0-9/19642546_1572490319430342_5483925909539917560_n.jpg?oh=7633dc448a37bd381a336efb54950cce&oe=59CD9CE6)
 
