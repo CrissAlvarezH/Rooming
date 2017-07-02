@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:foreground="@color/negro_semitrasnparente"
         android:scaleType="centerCrop"
-        android:src="@drawable/mit" />
+        android:src="@drawable/mit_opt" />
 
     <TextView
         android:textSize="50sp"

@@ -1,10 +1,15 @@
 package com.alvarez.cristian.contador.rooming;
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 public class DecisionActivity extends AppCompatActivity {
     private Button btnSoyEstudiante, btnSoyDocente;
@@ -17,6 +22,7 @@ public class DecisionActivity extends AppCompatActivity {
 
         btnSoyEstudiante = (Button) findViewById(R.id.btn_soy_estudiante);
         btnSoyDocente = (Button) findViewById(R.id.btn_soy_docente);
+
     }
 
     // Metodo para cuando se haga click en el boton 'btnSoyDocente'
